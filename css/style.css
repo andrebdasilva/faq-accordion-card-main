@@ -1,0 +1,20 @@
+:root{	
+	--background-gradient-color-soft-violet: hsl(273, 75%, 66%);
+	--background-gradient-color-soft-blue: hsl(240, 73%, 65%);
+	--text-primary-color-very-dark-desaturated-blue: hsl(238, 29%, 16%);
+	--text-primary-color-soft-red: hsl(14, 88%, 65%);
+	--text-neutral-color-very-dark-grayishblue: hsl(237, 12%, 33%);
+	--text-neutral-color-dark-grayish-blue: hsl(240, 6%, 50%);
+	--divires-color-light-grayish-blue: hsl(240, 5%, 91%);
+	--font-size-default: clamp(12px, 1.2vh, 12px);
+}
+
+*{
+	margin: 0;
+	padding: 0;	
+}
+
+*::after,
+*::before{
+	box-sizing: border-box;
+}
