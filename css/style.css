@@ -99,6 +99,10 @@ h1{
 	cursor: pointer;
 }
 
+.title-question{
+	transition: all .2s ease-in-out;
+}
+
 .title-question:hover{
 	color: var(--text-primary-color-soft-red);
 }
@@ -110,4 +114,8 @@ h1{
 	display: none;
 	margin-left: 1rem;
 	color: var(--text-neutral-color-dark-grayish-blue);
+}
+
+.open{
+	display: block;
 }
