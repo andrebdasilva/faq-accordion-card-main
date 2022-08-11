@@ -69,9 +69,9 @@ main{
 }
 
 .container-images img{
+	max-width: 30rem;
 	width: 100%;
 	height: auto;
-	max-width: 30rem;
 	transform: translateX(-5rem);
 }
 
@@ -116,8 +116,8 @@ h1{
 }
 
 @media screen and (max-width:56rem) {
-
 	main{
+		width: 100%;
 		flex-direction: column;
 		background-image: url(../images/bg-pattern-mobile.svg);
 		background-repeat: no-repeat;
@@ -135,8 +135,8 @@ h1{
 		left: 50%;
 		transform: translateX(-50%);
 		display: block;
-		width: 100%;
 		max-width: 25rem;		
+		width: 100%;
 		height: auto;
 	}
 
@@ -145,11 +145,30 @@ h1{
 	}
 
 	.container-text{
-		padding: 5rem 1.5rem 3rem 1.5rem;
+		padding: 5rem 1.5rem 3rem 1.5rem;	
 	}
 
 	h1{		
 		text-align: center;
 	}
-	
+
+	.container-question{			
+		padding: 1rem 0rem;	
+	}
+}
+
+@media screen and (max-width:34rem){
+	main{
+		margin: 8rem 0;
+		background-size: 16rem;
+	}
+
+	.container-images img{		
+		top: -7rem;		
+		max-width: 16rem;				
+	}
+
+	.container-faq{
+		padding-top: 4rem;
+	}
 }
