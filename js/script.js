@@ -1,8 +1,18 @@
-const containerQuestion = document.querySelectorAll(".container-question");
+const questions = document.querySelectorAll(".container-question");
 
-containerQuestion.forEach((question, index, arr) =>{
-	question.addEventListener("click", event =>{	
-		question.classList.toggle("strong")
-		question.nextElementSibling.classList.toggle("open")	
-	});
+questions.forEach((question) => {
+	question.addEventListener("click", handleClick);
 });
+
+function handleClick(event) {
+	const question = event.target;
+	if (question.classList.contains("active")) {
+		question.classList.remove("active");
+	} else {
+		const elementsActives = document.querySelectorAll(".active");
+		elementsActives.forEach((elementActive) => {
+			elementActive.classList.remove("active");
+		});
+		question.classList.add("active");
+	};
+};
