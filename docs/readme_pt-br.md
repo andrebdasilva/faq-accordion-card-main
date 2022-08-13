@@ -63,3 +63,8 @@ Classe CSS e seletore adjacente
 	border-bottom: .063rem solid var(--divires-color-light-grayish-blue);
 }
 ```
+## Autor
+- Frontend Mentor - [@andrebdasilva](https://www.frontendmentor.io/profile/andrebdasilva)
+
+## Agradecimentos
+- Muito obrigado a todos do Frontend Mentor

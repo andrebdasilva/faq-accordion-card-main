@@ -64,3 +64,8 @@ CSS Class e adjacent selector
 	border-bottom: .063rem solid var(--divires-color-light-grayish-blue);
 }
 ```
+## Author
+- Frontend Mentor - [@andrebdasilva](https://www.frontendmentor.io/profile/andrebdasilva)
+
+## Acknowledgments
+- Thank you all from the Frontend Mentor
