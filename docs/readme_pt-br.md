@@ -32,3 +32,34 @@ Desktop 1920px
 
 Mobile 375px  
 ![](/screenshots/screencapture-mobile.gif)
+
+## Meu Processo
+
+### Construído Com
+- HTML5 semântico
+- Variáveis CSS
+- CSS com seletores adjacentes
+- Layout responsivo
+- Interação com JavaScript puro
+
+### O Que Aprendi
+
+Eu aprendi a usar os seletores adjacentes no CSS para adcionar ações no container de pergunta e no container de reposta, utilizando apenas uma classe "active".  
+E no javascript utilizar apenas a classe "active" para fazer toda interatividade do acordeon.  
+
+Classe CSS e seletore adjacente
+```css
+.active{
+	font-weight: 700;
+}
+
+.active::after{
+	transform: rotate(180deg);
+}
+
+.container-question.active + .container-answer{
+	max-height: 8rem;
+	padding: 0 0 1rem 0;
+	border-bottom: .063rem solid var(--divires-color-light-grayish-blue);
+}
+```

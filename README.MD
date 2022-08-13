@@ -33,3 +33,34 @@ Desktop 1920px
 
 Mobile 375px  
 ![](/screenshots/screencapture-mobile.gif)
+## My process
+
+### Built with
+
+- Semantic HTML5 markup
+- CSS variables
+- CSS with adjacent selectors
+- Responsive layout
+- Interaction with pure JavaScript
+
+### What I learned
+
+I learned to use adjacent selectors in CSS to add actions to the question container and the answer container, using just an "active" class.  
+And in javascript use only the "active" class to do all the accordion interactivity.  
+
+CSS Class e adjacent selector
+```css
+.active{
+	font-weight: 700;
+}
+
+.active::after{
+	transform: rotate(180deg);
+}
+
+.container-question.active + .container-answer{
+	max-height: 8rem;
+	padding: 0 0 1rem 0;
+	border-bottom: .063rem solid var(--divires-color-light-grayish-blue);
+}
+```
