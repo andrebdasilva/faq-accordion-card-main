@@ -71,7 +71,6 @@ main{
 .container-images img{
 	max-width: 30rem;
 	width: 100%;
-	height: auto;
 	transform: translateX(-5rem);
 }
 
@@ -90,8 +89,7 @@ h1{
 	justify-content: space-between;
 	align-items: center;
 	cursor: pointer;
-	font-size: var(--font-size-question);
-	border-bottom: .063rem solid var(--divires-color-light-grayish-blue);
+	font-size: var(--font-size-question);	
 	transition: all .4s ease-in-out;
 }
 
@@ -122,6 +120,7 @@ h1{
 }
 
 .container-answer{	
+	border-bottom: .063rem solid var(--divires-color-light-grayish-blue);
 	line-height: 1.4;
 	color: var(--text-neutral-color-dark-grayish-blue);
 	max-height: 0;
@@ -133,7 +132,6 @@ h1{
 
 .active{
 	font-weight: 700;
-	border: none;
 }
 
 .active::after{
