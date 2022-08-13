@@ -22,9 +22,9 @@ Esta é uma solução para o [desafio do cartão de acordeão de perguntas frequ
 
 Os usuários devem ser capazes de:
 
-- Visualize o layout ideal para o componente, dependendo do tamanho da tela do dispositivo
-- Veja os estados de foco para todos os elementos interativos na página
-- Ocultar/Mostrar a resposta a uma pergunta quando a pergunta é clicada
+- Visualizar o layout de acordo com o tipo de tamanho tela que estiver acessando
+- Ver os estados de foco para todos os elementos interativos na página
+- Ocultar/Mostrar a resposta quando uma pergunta é clicada
 ### Screenshot
 
 Desktop 1920px  
