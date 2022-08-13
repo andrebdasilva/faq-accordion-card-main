@@ -25,3 +25,10 @@ Os usuários devem ser capazes de:
 - Visualize o layout ideal para o componente, dependendo do tamanho da tela do dispositivo
 - Veja os estados de foco para todos os elementos interativos na página
 - Ocultar/Mostrar a resposta a uma pergunta quando a pergunta é clicada
+### Screenshot
+
+Desktop 1920px  
+![](/screenshots/screencapture-desktop.gif)
+
+Mobile 375px  
+![](/screenshots/screencapture-mobile.gif)
